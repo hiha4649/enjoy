@@ -1,0 +1,32 @@
+body {
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+#right {
+  background-color: white;
+}
+
+#dark {
+  background-color: gray;
+}
+#switchOn {
+  height: 100px;
+  width: 100px;
+  background-image: url(./on.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+#switchOff {
+  height: 100px;
+  width: 100px;
+  background-image: url(./off.png);
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  border: none;
+}

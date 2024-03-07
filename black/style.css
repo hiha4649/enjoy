@@ -1,0 +1,12 @@
+.container {
+  width: auto;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+  background-color: antiquewhite;
+  display: flex;
+}
+
+.card {
+  width: 100px;
+}

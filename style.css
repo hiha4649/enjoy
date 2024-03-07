@@ -1,0 +1,37 @@
+body {
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 55px;
+  text-align: center;
+}
+
+ul {
+  width: fit-content;
+  margin: auto;
+  text-align: left;
+}
+
+#header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: #ffc6d6;
+  margin: auto;
+}
+
+a {
+  font-weight: bold;
+}
+
+a:link {
+  color: #FF9CB9
+}
+
+a:visited {
+  color: #ffd76e
+}
+
+table {
+  border: "1";
+}

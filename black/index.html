@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ブラックジャック</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="card-field">
+      <img class="card" src="card/bk0.png" alt="" id="left">
+      <img class="card" src="card/bk0.png" alt="" id="right">
+    </div>
+    <div class="play-field">
+      <div id="judge">
+        <input class="button" type="button" value="1枚引く" onclick="draw();">
+        <input class="button" type="button" value="判定" onclick="judge()">
+      </div>
+      <div id="result"></div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
