@@ -14,7 +14,7 @@ const server = http
   console.error('Client Error', e);
 });
 
-const port = 8000;
+const port = precess.env.PORT || 8000;
 server.listen(port, () => {
   console.info(`Listening on ${port}`);
 });
