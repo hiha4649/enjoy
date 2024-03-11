@@ -98,7 +98,7 @@ function handleFavicon(req, res) {
     'Content-Type': 'image/vnd.microsoft.icon',
     'Cache-Control': 'public, max-age=604800'
   });
-  const favicon = fs.readFileSync('./')
+  const favicon = fs.readFileSync('./67139917.jpg')
   res.end(favicon);
 }
 
@@ -130,6 +130,7 @@ module.exports = {
   handleMoonCssFile,
   handleMoonOnFile,
   handleMoonOffFile,
+  handleFavicon,
   handleStyleCssFile,
   handleNotFound
 }

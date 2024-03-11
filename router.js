@@ -33,6 +33,9 @@ function route(req, res) {
     case '/dev':
       link.handleDev(req,res);
       break;
+    case '/favicon.ico':
+      link.handleFavicon(req,res);
+      break;
     case '/style.css':
       link.handleStyleCssFile(req, res);
       break;
