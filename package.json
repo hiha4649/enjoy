@@ -1,0 +1,10 @@
+{
+  "name": "hiha-web",
+  "version": "1.0.0",
+  "description": "ひはの自作ホームページ「ひはのだべり場」",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
