@@ -27,6 +27,7 @@ header {
 
 main {
   margin: auto;
+  padding-bottom: 5%;
   background-color: #FFFFFF;
   width: 75%;
 }
@@ -48,6 +49,28 @@ a:visited {
   color: #ffd76e
 }
 
-table {
-  border: "1";
+table, th {
+  border: solid;
+}
+
+td {
+  border: solid #b6b6b6;
+}
+
+th {
+  background-color: #65FFFF;
+  padding: 10px;
+}
+
+.songname {
+  width: 20%;
+}
+
+.comment {
+  width: 40%;
+  text-align: center; /* 文字だけ左揃え(left)もアリか？ */
+}
+
+.movie {
+  width: auto;
 }
