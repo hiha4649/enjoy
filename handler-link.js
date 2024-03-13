@@ -28,7 +28,7 @@ function handleWork(req, res) {
   res.writeHead(200, {
     'Content-Type': 'text/html; charset=utf-8'
   });
-  const rs = fs.createReadStream('./page/work.html');
+  const rs = fs.createReadStream('./dev.html');//作品作り次第「./page/work.html」に変更
   rs.pipe(res);
 }
 
